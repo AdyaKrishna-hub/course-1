@@ -197,8 +197,7 @@ for t in range(0,101):
         maxdifference=difference
         highest_t = t
 
-print(f"Hour with biggest difference:{highest_t}")
+print(f"Hour with biggest difference in change of bacteria:{highest_t}")
 print(f"Highest difference:{maxdifference}")
-
     
 
