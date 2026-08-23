@@ -184,10 +184,21 @@
 #print(num)
 
 #HW9
-h =1
+maxdifference= 0
+highest_t=0
 
-for i in range(0,101):
-    bacteria= h*(h-20)(h-100)+120000
-    h += 1
+for t in range(0,101):
+    bacteria= t*(t-20)*(t-100)+120000
+    bacteria_new= (t-1)*((t-1)-20)*((t-1)-100)+120000
+
+    difference = bacteria_new-bacteria
+
+    if difference>maxdifference:
+        maxdifference=difference
+        highest_t = t
+
+print(f"Hour with biggest difference:{highest_t}")
+print(f"Highest difference:{maxdifference}")
+
     
 
