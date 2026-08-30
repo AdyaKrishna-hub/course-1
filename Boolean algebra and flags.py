@@ -89,14 +89,44 @@
  #
  #        print(y, end=' ')
 
-new = []
-for y in range(2,100):
-        for v in range(2,y):
-            if len(new) <= 100 and y % v == 0:
-                     new.append(y)
+#PART 2 HW8
+#new = []
+#for y in range(2,1000):
+  #      v =2
+   #     while y % v != 0:
+    #            v += 1
+     #   if v == y:
+      #         new.append(y)
+       #        if len(new)>=100:
+        #               break
                      
-        else:
-            print(new, end=' ')
+#print(new, end=' ')
+
+#HW9
+#for n in range(2,10000):
+#    sum = 0
+
+#    for i in range(1,n):
+#        if n % i == 0:
+#            sum += i
+
+#    if sum == n:
+#        print(n, end=' ')
+
+#HW10
+#import random
+#sum = 0
+#for i in range(10000):
+#    x = random.uniform(-1,1)
+#    y = random.uniform(-1,1)
+
+#    if x**2 + y**2 <= 1:
+#        sum += 1
+#print(f'{sum/10000}')    
+
+
+
+
 
 
 
