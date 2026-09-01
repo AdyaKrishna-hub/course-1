@@ -43,13 +43,20 @@
 #print(result)
 
 #HW2
-x = list(input('give a list: '))
-def fun(x):
-    flag = True
-    i = 2
-    while flag and i < len(x):
-        if x[i]-x[i-1] != x[i-1]-x[i-2]:
-            flag = False
-        else:
-            i += 1
-    print(flag)
+#def fun(x):
+#    flag = True
+#    i = 2
+#    while flag and i < len(x):
+#        y=x[i]-x[i-1] 
+#        z= x[i-1]-x[i-2]
+#        print(f'{i}= i, current difference = {y}, previous difference = {z}')
+
+#        if y != z:
+#            flag = False
+#        else:
+#            i += 1
+#    print("Final flag: ",flag)
+#    return flag
+
+#k = [7,3,-1,-5,-8,-12]
+#fun(k)
