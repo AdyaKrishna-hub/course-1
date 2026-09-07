@@ -81,13 +81,13 @@
 #rint(v)
 
 #HW8
-#for y in range(2,100):
- #   for v in range(2,y):
- #       if y % v == 0:
- #           break
- #   else:
- #
- #        print(y, end=' ')
+for y in range(2,100):
+    for v in range(2,y):
+        if y % v == 0:
+            break
+    else:
+ 
+         print(y, end=' ')
 
 #PART 2 HW8
 #new = []
