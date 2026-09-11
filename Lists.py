@@ -197,23 +197,24 @@
 #        break
 
 #HW8
-#original = []
-#indices= []
-#result=[]
-#while True:
-#    y = input('give words: ')
-#    if y != '!':
-#        original.append(y)
-#    else:
-#        break
-#while True:
-#    x = int(input('give indices: '))
-#    if x >= 0 and x not in indices:
-#        indices.append(x)
-#    else:
-#        break  
-#print(original)
-#print(indices)
+original = []
+indices= []
+result=[]
+while True:
+    y = input('give words: ')
+    if y != '!':
+        original.append(y)
+    else:
+        break
+while True:
+    x = int(input('give indices: '))
+    if x >= 0 and x not in indices:
+        indices.append(x)
+    else:
+        break  
+
+print(original)
+print(indices)
 
 #HW9
 def transpose(a):

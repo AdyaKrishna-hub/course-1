@@ -164,24 +164,24 @@
 #print(n)
 
 #HW8
-#wtv comment 
-#a = int(input('enter a nonnegative integer: '))
 
-#num = 1
+a = int(input('enter a nonnegative integer: '))
 
-#for i in range(a):
-#    num *= 3 # Every time the loop runs, it multiplies num by 3
+num = 1
 
-#print(num)
+for i in range(a):
+    num *= 3 # Every time the loop runs, it multiplies num by 3
 
-#a = int(input('give a nonnegative integer: '))
-#b = int(input('give an integer: '))
+print(num)
 
-#num = 1
+a = int(input('give a nonnegative integer: '))
+b = int(input('give an integer: '))
 
-#for i in range(a):
-#    num *= b
-#print(num)
+num = 1
+
+for i in range(a):
+    num *= b
+    print(num)
 
 #HW9
 maxdifference= 0
