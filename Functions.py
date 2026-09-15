@@ -88,11 +88,11 @@
 
 #HW6
 #def alternate(lst):
-#    cool =[]
-#    n =len(lst)
+#   cool =[]
+#   n =len(lst)
 #    for i in range(n//2): #tells the number of pairs we need
 #        cool.append(lst[i])
-#       cool.append(lst[n-1-i]) #len numbers the list 1 more than it is so we must subtract i from it
+#        cool.append(lst[n-1-i]) #len numbers the list 1 more than it is so we must subtract i from it
 #   if n % 2 == 1:
 #           cool.append(lst[n // 2]) #finds the central value
 #    return cool
@@ -125,6 +125,7 @@
 #b =['     '.join,str.split, str.lower]
 #m= 'WHAT IS THIS?'
 #print(apply_functions(b,m))
+
 
 
         
