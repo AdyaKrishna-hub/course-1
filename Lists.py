@@ -67,9 +67,9 @@
 #print(lst)
 
 #HW1
-#h =[]
-#h.append(1)
-#print(h)
+h =[]
+h.append(1)
+print(h)
 #h.append(6)
 #print(h)
 #h.insert(0,1)
@@ -197,30 +197,30 @@
 #        break
 
 #HW8
-original = []
-indices= []
-result=[]
-while True:
-    y = input('give words: ')
-    if y != '!':
-        original.append(y)
-    else:
-        break
-while True:
-    x = int(input('give indices: '))
-    if x >= 0 and x not in indices:
-        indices.append(x)
-    else:
-        break  
+#original = []
+#indices= []
+#result=[]
+#while True:
+#    y = input('give words: ')
+#    if y != '!':
+#        original.append(y)
+#    else:
+#        break
+#while True:
+#    x = int(input('give indices: '))
+#    if x >= 0 and x not in indices:
+#        indices.append(x)
+#    else:
+#        break  
 
-print(original)
-print(indices)
+#print(original)
+#print(indices)
 
 #HW9
-def transpose(a):
-    return[list(x)for x in zip(*a)]
+#def transpose(a):
+#    return[list(x)for x in zip(*a)]
 
-print(transpose([[1,2,3],[4,5,6]]))
+#print(transpose([[1,2,3],[4,5,6]]))
 
 
 
